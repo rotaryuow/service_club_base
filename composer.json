@@ -1,0 +1,7 @@
+{
+  "name": "didymo/service_club_base",
+  "type": "drupal-profile",
+  "description": "Service Clubs installation profile",
+  "homepage": "https://github.com/didymo/service_club_base",
+  "license": "GPL-2.0+"
+}

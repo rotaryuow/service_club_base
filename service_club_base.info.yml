@@ -1,0 +1,70 @@
+name: Service Clubs Profile
+type: profile
+description: Profile for service clubs, events and assets management sites.
+core: 8.x
+
+distribution:
+  name: Service Clubs Base
+
+dependendies:
+  - address
+  - address_map_link
+  - admin_toolbar
+  - bootstrap_layouts
+  - calendar
+  - courier
+  - ctools
+  - ds
+  - dynamic_entity_reference
+  - entity
+  - entity_reference_revisions
+  - flag
+  - front
+  - geolocation-8.x-1.10
+  - inline_entity_form
+  - mailsystem
+  - message
+  - message_notify
+  - message_subscribe
+  - panels
+  - pathauto
+  - profile
+  - rng
+  - rng_conflict
+  - rng_contact
+  - rng_date_scheduler
+  - rng_quick
+  - rules
+  - scheduler
+  - simplify
+  - state_machine
+  - swiftmailer
+  - token
+  - typed_data
+  - unlimited_number
+  - veoa
+  - views_advance_routing
+  - views_template
+  - assetmanage-master
+  - commerce
+  - cart
+  - checkout
+  - log
+  - order
+  - payment
+  - payment_example
+  - price
+  - product
+  - promotion
+  - store
+  - tax
+  - manage_event
+  - manage_inventory
+  - userprofiles-master
+  - vehicle
+  - phpmailer
+  - shorten
+
+themes:
+  - bootstrap
+  - bt_subtheme
