@@ -20,7 +20,7 @@ dependencies:
   - entity
   - entity_reference_revisions
   - flag
-  - front
+  - front_page
   - geolocation
   - inline_entity_form
   - mailsystem
