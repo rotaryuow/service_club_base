@@ -3,7 +3,7 @@
   "type": "drupal-profile",
   "description": "Service Clubs installation profile",
   "homepage": "https://github.com/didymo/service_club_base",
-  "license": "GPL-2.0+"
+  "license": "GPL-2.0+",
   "require": {
     "drupal/admin_toolbar": "~1.0"
   }
