@@ -48,17 +48,16 @@ dependencies:
   - views_templates
   - assetmanage-master
   - commerce
-  - cart
-  - checkout
-  - log
-  - order
-  - payment
-  - payment_example
-  - price
-  - product
-  - promotion
-  - store
-  - tax
+  - commerce_cart
+  - commerce_checkout
+  - commerce_log
+  - commerce_order
+  - commerce_payment
+  - commere_price
+  - commerce_product
+  - commerce_promotion
+  - commerce_store
+  - commerce_tax
   - manage_event
   - manage_inventory
   - userprofiles-master
