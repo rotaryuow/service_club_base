@@ -21,7 +21,7 @@ dependencies:
   - entity_reference_revisions
   - flag
   - front
-  - geolocation-8.x-1.10
+  - geolocation
   - inline_entity_form
   - mailsystem
   - message
@@ -53,7 +53,7 @@ dependencies:
   - commerce_log
   - commerce_order
   - commerce_payment
-  - commere_price
+  - commerce_price
   - commerce_product
   - commerce_promotion
   - commerce_store
