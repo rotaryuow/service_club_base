@@ -4,6 +4,12 @@
   "description": "Service Clubs installation profile",
   "homepage": "https://github.com/didymo/service_club_base",
   "license": "GPL-2.0+",
+  "repositories": [
+      {
+          "type": "composer",
+          "url": "https://packages.drupal.org/8"
+      }
+  ],
   "require": {
     "drupal/admin_toolbar": "~1.0"
   }
