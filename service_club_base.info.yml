@@ -46,7 +46,7 @@ dependencies:
   - veoa
   - views_advanced_routing
   - views_templates
-  - assetmanage-master
+  - assetmanage
   - commerce
   - commerce_cart
   - commerce_checkout
@@ -60,7 +60,7 @@ dependencies:
   - commerce_tax
   - manage_event
   - manage_inventory
-  - userprofiles-master
+  - userprofiles
   - vehicle
   - phpmailer
   - shorten
