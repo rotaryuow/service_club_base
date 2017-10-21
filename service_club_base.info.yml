@@ -64,6 +64,15 @@ dependencies:
   - phpmailer
   - shorten
   - shortcut
+  - views
+  - block
+  - configuration_manager
+  - custom_menu_link
+  - field_ui
+  - field
+  - menu_lnk_content
+  - views_ui
+  - workflows
 
 themes:
   - bartik
