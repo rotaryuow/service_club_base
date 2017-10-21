@@ -24,7 +24,7 @@ function service_club_base_install() {
     
   \Drupal::configFactory()
     ->getEditable('system.theme')
-    ->set('admin','bt_subtheme')
+    ->set('admin','bartik')
     ->save();
 
 
