@@ -16,6 +16,17 @@ function service_club_base_install() {
   // First, do everything that is done in the standard profile.
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
+  
+  \Drupal::configFactory()
+    ->getEditable('system.theme')
+    ->set('default','bt_subtheme')
+    ->save();
+    
+  \Drupal::configFactory()
+    ->getEditable('system.theme')
+    ->set('admin','bt_subtheme')
+    ->save();
+
 
   // Add code here to make nodes, terms, etc.
 }
