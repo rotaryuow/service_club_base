@@ -66,13 +66,14 @@ dependencies:
   - shortcut
   - views
   - block
-  - configuration_manager
-  - custom_menu_link
+  - config
   - field_ui
   - field
-  - menu_lnk_content
+  - menu_link_content
   - views_ui
   - workflows
+  - menu_ui
+  - admin_toolbar_tools
 
 themes:
   - bartik
