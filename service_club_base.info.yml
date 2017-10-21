@@ -60,13 +60,12 @@ dependencies:
   - commerce_store
   - commerce_tax
   - manage_event
-  - manage_inventory
   - userprofiles
-  - vehicle
   - phpmailer
   - shorten
   - shortcut
 
 themes:
+  - bartik
   - bootstrap
   - bt_subtheme
