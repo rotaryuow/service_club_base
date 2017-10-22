@@ -31,7 +31,7 @@ function service_club_base_install() {
   $field_image = $config_factory->getEditable('field.field.node.event_overview.field_image');
   $default_image = $field_image->get('settings.default_image');
 
-  $data = file_get_contents('calendar.png');
+  $data = file_get_contents('service_club_base/calendar.png');
   $file_info = file_save_data($data, 'public://calendar.png', FILE_EXISTS_REPLACE);
 
   $default_image['uuid'] = $file_info->uuid();
