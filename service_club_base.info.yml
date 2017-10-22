@@ -36,7 +36,6 @@ dependencies:
   - rng_contact
   - rng_date_scheduler
   - rng_quick
-  - rules
   - scheduler
   - simplify
   - state_machine
