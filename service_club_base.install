@@ -26,6 +26,21 @@ function service_club_base_install() {
     ->getEditable('system.theme')
     ->set('admin','seven')
     ->save();
+    
+  $config_factory = \Drupal::configFactory();
+  $field_image = $config_factory->getEditable('field.field.node.event_overview.field_image');
+  $default_image = $field_image->get('settings.default_image');
+
+  $data = file_get_contents('calendar.png');
+  $file_info = file_save_data($data, 'public://calendar.png', FILE_EXISTS_REPLACE);
+
+  $default_image['uuid'] = $file_info->uuid();
+  $default_image['alt'] = 'Default Image';
+  $default_image['title'] = 'Default Image';
+  $default_image['height'] = 320;
+  $default_image['width'] = 320; 
+
+  $field_image->set('settings.default_image', $default_image)->save(TRUE);
 
 
   // Add code here to make nodes, terms, etc.
