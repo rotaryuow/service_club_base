@@ -60,13 +60,23 @@ dependencies:
   - commerce_store
   - commerce_tax
   - manage_event
-  - manage_inventory
   - userprofiles
-  - vehicle
   - phpmailer
   - shorten
   - shortcut
+  - views
+  - block
+  - config
+  - field_ui
+  - field
+  - menu_link_content
+  - views_ui
+  - workflows
+  - menu_ui
+  - admin_toolbar_tools
 
 themes:
+  - bartik
   - bootstrap
   - bt_subtheme
+  - seven
